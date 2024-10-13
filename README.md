@@ -42,4 +42,4 @@ Data E-Commerce Public Dataset dari dicoding [(Link Download)](https://drive.goo
     streamlit run main.py
     ```
 2. Melakukan Akses secara Cloud (online):
-   [Project Data Analytics]([https://frankie29-belajar-mengolah-data.streamlit.app/])
+   [(Proyek Data Analisis)](https://frankie29-belajar-mengolah-data.streamlit.app/)
