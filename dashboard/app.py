@@ -7,7 +7,10 @@ import datetime as dt
 
 all_df = pd.read_csv('all_data.csv')
 
-
+try:
+    all_df = pd.read_csv('all_data.csv')
+except pd.errors.EmptyDataError:
+    print("File is empty or no columns to parse.")
 
 # change type str/obj -> datetime
 datetime_columns = ["order_approved_at"]
